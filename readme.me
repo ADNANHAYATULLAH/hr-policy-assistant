@@ -1,0 +1,53 @@
+# 👩‍💼 HR Policy Assistant
+
+An AI-powered HR Policy Assistant built with Streamlit and RAG.
+
+## Features
+
+- Upload HR policy PDFs
+- Extract policy information
+- Split documents into chunks
+- Generate embeddings using Gemini
+- Store embeddings in ChromaDB
+- Retrieve relevant policy sections
+- Generate answers using Gemini
+- Display policy sources
+
+## Tech Stack
+
+- Python
+- Streamlit
+- Google Gemini
+- ChromaDB
+- RAG
+- PyPDF
+
+## How RAG Works
+
+1. Upload HR policy PDFs
+2. Extract text from PDFs
+3. Split text into smaller chunks
+4. Convert chunks into embeddings
+5. Store embeddings in ChromaDB
+6. Convert user question into an embedding
+7. Search for similar policy chunks
+8. Send retrieved context to Gemini
+9. Generate the final answer
+
+## Run Locally
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the application:
+
+streamlit run app.py
+
+## API Key
+
+Create a `.streamlit/secrets.toml` file:
+
+GEMINI_API_KEY = "your-api-key"
+
+Never upload your API key to GitHub.
