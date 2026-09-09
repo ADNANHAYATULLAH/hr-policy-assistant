@@ -16,7 +16,7 @@ from google import genai
 # change it here.
 
 EMBEDDING_MODEL = "gemini-embedding-2"
-GENERATION_MODEL = "gemini-2.5-flash"
+GENERATION_MODEL = "gemini-3.6-flash"
 
 COLLECTION_NAME = "hr_policies"
 CHROMA_PATH = "./chroma_db"
