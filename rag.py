@@ -1,4 +1,3 @@
-```python
 import os
 import re
 import tempfile
@@ -770,4 +769,4 @@ USER QUESTION:
         raise RuntimeError(
             f"Could not generate HR assistant response: {e}"
         )
-```
+
